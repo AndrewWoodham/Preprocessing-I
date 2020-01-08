@@ -137,6 +137,18 @@ body {
   width: 90%;
   margin-left: 5%;
 }
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.7rem;
+}
+p {
+  font-size: 1.7rem;
+}
 .navbar {
   display: flex;
   flex-direction: row-reverse;
@@ -149,17 +161,30 @@ body {
   color: black;
   font-size: 1.8rem;
 }
-h1 {
-  font-size: 2.5rem;
+.heading {
+  display: block;
 }
-h2 {
-  font-size: 2rem;
+.heading .portrait {
+  width: 30%;
+  margin: 2%;
+  border: black 1px solid;
 }
-h3 {
-  font-size: 1.7rem;
+.heading .header-content {
+  margin: 2%;
 }
-p {
-  font-size: 1.5rem;
+.heading .header-content .Intro {
+  border-top: 1px solid lightgrey;
+}
+.heading .header-content h1 {
+  margin: 2%;
+}
+.heading .header-content p {
+  margin: 1%;
+}
+.heading .header-content .snippet {
+  border-top: solid 1px lightgrey;
+  width: 50%;
+  padding: 1%;
 }
 footer {
   background: lightgrey;
