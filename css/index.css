@@ -218,6 +218,11 @@ ul li {
 .bodycontent .introduction {
   width: 40%;
 }
+.bodycontent .introduction a {
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: italic;
+}
 .workhistory {
   border: solid 2px lightgrey;
 }
@@ -228,6 +233,12 @@ ul li {
 .workhistory div h3 {
   font-weight: bold;
   font-style: italic;
+}
+.contactinfo {
+  margin: 2%;
+  line-height: 4rem;
+  font-size: 3rem;
+  font-weight: bold;
 }
 footer {
   background: lightgrey;
