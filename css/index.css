@@ -171,10 +171,10 @@ p {
   padding: 2%;
 }
 .heading .portrait {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
   width: 20%;
-  margin: 3%;
-  border: black 1px solid;
-  border-radius: 4rem;
 }
 .heading .header-content {
   margin: 2%;
@@ -203,6 +203,9 @@ ul li {
   background: #e4e4e4;
   padding: 2%;
   margin: 2%;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
 .bodycontent {
   display: flex;
@@ -225,11 +228,24 @@ ul li {
   text-decoration: none;
   color: violet;
 }
+@media only screen and (max-width: 500px) {
+  .bodycontent {
+    flex-direction: column;
+    width: 100%;
+  }
+  .bodycontent section {
+    width: 100%;
+  }
+  .bodycontent .introduction {
+    width: 100%;
+    padding: 5%;
+  }
+}
 .workhistory {
   border: solid 2px lightgrey;
 }
 .workhistory div {
-  margin: 1%;
+  margin: 2%;
   border: solid 1px lightgrey;
 }
 .workhistory div h3 {

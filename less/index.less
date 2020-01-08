@@ -61,6 +61,12 @@ html, body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.round-borders (@radius) {
+	border-radius: @radius;
+	-moz-border-radius: @radius;
+	-webkit-border-radius: @radius;
+}
+
 h1{
 	font-size: 3.5rem;
 	font-weight: bold;
@@ -101,10 +107,8 @@ p{
 	padding: 2%;
 
 	.portrait{
+		.round-borders(5px);
 		width: 20%;
-		margin: 3%;
-		border: black 1px solid;
-		border-radius: 4rem;
 		
 	}
 
@@ -142,6 +146,7 @@ ul{
 		background:  rgb(228, 228, 228);
 		padding: 2%;
 		margin: 2%;
+		.round-borders(5px);
 	}
 }
 
@@ -170,11 +175,26 @@ ul{
 }
 }
 
-.workhistory{
+@media only screen and (max-width: 500px) {
+	.bodycontent{
+	flex-direction: column;
+	width: 100%;
+	
+		section{
+			width: 100%;
+		}
+		.introduction{
+			width: 100%;
+			padding: 5%;
+		}
+	}
+}
+
+	.workhistory{
 	border: solid 2px lightgrey;
 
 	div{
-		margin: 1%;
+		margin: 2%;
 		border: solid 1px lightgrey;
 
 		h3{
