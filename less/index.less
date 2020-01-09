@@ -71,18 +71,21 @@ html, body {
 	-webkit-border-radius: @radius;
 }
 
-h1{
-	font-size: 3.5rem;
+	.fontstyling(@size) {
 	font-weight: bold;
+	font-size: @size;
+}
+
+h1{
+	.fontstyling(3.5rem);
 }
 
 h2{
-	font-size: 2rem;
-	font-weight: bold;
+ .fontstyling(2rem);
 }
 
 h3{
-	font-size: 1.7rem;
+	.fontstyling(1.7rem);
 }
 
 p{
@@ -99,8 +102,7 @@ p{
 		text-decoration: none;
 		margin: @margin;
 		color: black;
-		font-size: 1.8rem;
-		font-weight: bold;
+		.fontstyling(1.7rem);
 
 	}
 }
@@ -170,8 +172,7 @@ ul{
 		width: 40%;
 
 	a{
-		font-size: 3rem;
-		font-weight: bold;
+		.fontstyling(3rem);
 		font-style: italic;
 		text-decoration: none;
 		color: violet;
@@ -214,8 +215,7 @@ ul{
 .contactinfo{
 	margin: @margin;
 	line-height: 4rem;
-	font-size: 3rem;
-	font-weight: bold;
+	.fontstyling(3rem);
 }
 
 

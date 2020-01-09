@@ -139,14 +139,15 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h1 {
-  font-size: 3.5rem;
   font-weight: bold;
+  font-size: 3.5rem;
 }
 h2 {
-  font-size: 2rem;
   font-weight: bold;
+  font-size: 2rem;
 }
 h3 {
+  font-weight: bold;
   font-size: 1.7rem;
 }
 p {
@@ -162,8 +163,8 @@ p {
   text-decoration: none;
   margin: 2%;
   color: black;
-  font-size: 1.8rem;
   font-weight: bold;
+  font-size: 1.7rem;
 }
 .heading {
   display: block;
@@ -222,8 +223,8 @@ ul li {
   width: 40%;
 }
 .bodycontent .introduction a {
-  font-size: 3rem;
   font-weight: bold;
+  font-size: 3rem;
   font-style: italic;
   text-decoration: none;
   color: violet;
@@ -257,8 +258,8 @@ ul li {
 .contactinfo {
   margin: 2%;
   line-height: 4rem;
-  font-size: 3rem;
   font-weight: bold;
+  font-size: 3rem;
 }
 footer {
   background: lightgrey;
