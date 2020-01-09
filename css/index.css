@@ -137,6 +137,7 @@ body {
   width: 90%;
   margin-left: 5%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #b500da;
 }
 h1 {
   font-weight: bold;
@@ -156,19 +157,20 @@ p {
 .navbar {
   display: flex;
   flex-direction: row-reverse;
-  background: lightgrey;
+  background: #b500da;
   padding: 2%;
+  color: white;
 }
 .navbar a {
   text-decoration: none;
   margin: 2%;
-  color: black;
+  color: white;
   font-weight: bold;
   font-size: 1.7rem;
 }
 .heading {
   display: block;
-  background: whitesmoke;
+  background: white;
   padding: 2%;
 }
 .heading .portrait {
@@ -181,7 +183,7 @@ p {
   margin: 2%;
 }
 .heading .header-content .Intro {
-  border-top: 1px solid lightgrey;
+  border-top: 1px solid #b500da;
 }
 .heading .header-content h1 {
   margin: 2%;
@@ -190,7 +192,7 @@ p {
   margin: 2%;
 }
 .heading .header-content .snippet {
-  border-top: solid 1px lightgrey;
+  border-top: solid 1px #b500da;
   width: 50%;
   padding: 2%;
 }
@@ -200,7 +202,7 @@ ul {
   margin: 2%;
 }
 ul li {
-  border: solid 1px lightgrey;
+  border: solid 1px #b500da;
   background: #e4e4e4;
   padding: 2%;
   margin: 2%;
@@ -242,12 +244,9 @@ ul li {
     padding: 5%;
   }
 }
-.workhistory {
-  border: solid 2px lightgrey;
-}
 .workhistory div {
   margin: 2%;
-  border: solid 1px lightgrey;
+  border: solid 1px #b500da;
   padding: 2%;
 }
 .workhistory div h3 {
@@ -262,11 +261,12 @@ ul li {
   font-size: 2rem;
 }
 footer {
-  background: lightgrey;
+  background: #b500da;
   display: flex;
   justify-content: center;
   padding: 2%;
   font-size: 2rem;
   font-style: italic;
   margin-top: 2%;
+  color: white;
 }

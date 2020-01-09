@@ -59,11 +59,13 @@ html, body {
 	width: 90%;
 	margin-left:5%;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: @color;
 }
 
 @margin: 2%;
-@color: lightgrey;
+@color: rgb(181, 0, 218);
 @padding: 2%;
+@theme: white;
 
 .round-borders (@radius) {
 	border-radius: @radius;
@@ -97,11 +99,12 @@ p{
 	flex-direction: row-reverse;
 	background: @color;
 	padding: @padding;
+	color: @theme;
 
 	a{
 		text-decoration: none;
 		margin: @margin;
-		color: black;
+		color: @theme;
 		.fontstyling(1.7rem);
 
 	}
@@ -109,7 +112,7 @@ p{
 
 .heading{
 	display: block;
-	background: whitesmoke;
+	background: @theme;
 	padding: @padding;
 
 	.portrait{
@@ -196,7 +199,6 @@ ul{
 }
 
 	.workhistory{
-	border: solid 2px @color;
 
 	div{
 		margin: @margin;
@@ -227,4 +229,5 @@ footer{
 	font-size: 2rem;
 	font-style: italic;
 	margin-top: @margin;
+	color: @theme;
 }
